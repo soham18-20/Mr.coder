@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="16dp">
+
+    <ImageButton
+        android:id="@+id/button_flashlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/flashlight_button"
+        android:src="@drawable/ic_flashlight_off" />
+
+    <Button
+        android:id="@+id/button_sos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="@string/sos_off"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button_slow_blink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="@string/slow_blink_off"
+        android:textColor="#FFFFFF" />
+
+</FrameLayout>
+
+
+
+

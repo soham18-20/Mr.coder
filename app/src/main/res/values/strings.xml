@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FlashlightApp</string>
+    <string name="flashlight_button">Flashlight Button</string>
+    <string name="sos_on">Stop SOS</string>
+    <string name="sos_off">Start SOS</string>
+    <string name="slow_blink_on">Stop Slow Blink</string>
+    <string name="slow_blink_off">Start Slow Blink</string>
+</resources>
+
